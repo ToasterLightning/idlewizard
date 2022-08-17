@@ -2,8 +2,8 @@ function intro()
 {
   let texts = [
   "Heya kiddo.",
-  "What's your name?"
-  "..."
+  "What's your name?",
+  "...",
   "Well,"
   ]
   for(let text of texts)
