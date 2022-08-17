@@ -13,7 +13,7 @@ function intro()
     for(let char of text)
     {
       txt += char;
-      time = setTimeOut(displayText("introText",txt),25)
+      time = setTimeout(displayText("introText",txt),25)
     }
     
   }
