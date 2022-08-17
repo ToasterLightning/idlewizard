@@ -22,3 +22,4 @@ function displayText(id, text)
 {
   document.getElementById(id).innerHTML = text;
 }
+intro()
