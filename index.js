@@ -1,1 +1,22 @@
-console.log("test");
+function intro()
+{
+  let texts = [
+  "Heya kiddo.",
+  "What's your name?"
+  "..."
+  "Well,"
+  ]
+  for(let text of texts)
+  {
+    let txt = ""
+    for(let char of text)
+    {
+      txt += char
+      setTimeOut(displayText("",txt),25)
+  }
+  
+}
+function displayText(id, text)
+{
+  document.getElementById(id).innerHTML = text;
+}
